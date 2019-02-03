@@ -26,11 +26,11 @@ public class SpawnFlowers : MonoBehaviour {
             Vector3 spawnLocation = new Vector3(_player.transform.position.x + Mathf.Sin(Mathf.Deg2Rad * currentSpawnAngle) * distanceFromPlayer, 0.1f, _player.transform.position.z + Mathf.Cos(Mathf.Deg2Rad * currentSpawnAngle) * distanceFromPlayer);
             GameObject flower = GameObject.Instantiate(flowers[currentFlowerIndex % flowers.Length], spawnLocation, Quaternion.identity);
 
-            flower.transform.DOScale(2.5f, currentFlowerIndex * 0.05f).SetEase(Ease.InOutQuad);
+            flower.transform.DOScale(2.5f, currentFlowerIndex * 0.02f).SetEase(Ease.InOutQuad);
 
             currentFlowerIndex += Random.Range(1, 4);
             currentSpawnAngle += Random.Range(15, 30);
-            distanceFromPlayer += 0.02f;
+            distanceFromPlayer += 0.01f;
         }
     }
 }

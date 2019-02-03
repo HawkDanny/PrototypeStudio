@@ -122,7 +122,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400002, guid: f27b3fd2e6b194b9b964e097240e5f2c, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 1.7199006
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: f27b3fd2e6b194b9b964e097240e5f2c, type: 2}
       propertyPath: m_LocalPosition.y
@@ -130,7 +130,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: f27b3fd2e6b194b9b964e097240e5f2c, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -3.9203377
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: f27b3fd2e6b194b9b964e097240e5f2c, type: 2}
       propertyPath: m_LocalRotation.x
@@ -150,43 +150,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: f27b3fd2e6b194b9b964e097240e5f2c, type: 2}
       propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2000000, guid: f27b3fd2e6b194b9b964e097240e5f2c, type: 2}
-      propertyPath: m_BackGroundColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2000000, guid: f27b3fd2e6b194b9b964e097240e5f2c, type: 2}
-      propertyPath: m_BackGroundColor.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2000000, guid: f27b3fd2e6b194b9b964e097240e5f2c, type: 2}
-      propertyPath: m_BackGroundColor.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2000000, guid: f27b3fd2e6b194b9b964e097240e5f2c, type: 2}
-      propertyPath: m_BackGroundColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2000000, guid: f27b3fd2e6b194b9b964e097240e5f2c, type: 2}
-      propertyPath: m_ClearFlags
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2300000, guid: f27b3fd2e6b194b9b964e097240e5f2c, type: 2}
-      propertyPath: m_CastShadows
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400014, guid: f27b3fd2e6b194b9b964e097240e5f2c, type: 2}
-      propertyPath: walkSpeed
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400014, guid: f27b3fd2e6b194b9b964e097240e5f2c, type: 2}
-      propertyPath: runSpeed
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2000000, guid: f27b3fd2e6b194b9b964e097240e5f2c, type: 2}
-      propertyPath: m_HDR
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f27b3fd2e6b194b9b964e097240e5f2c, type: 2}
@@ -221,9 +185,9 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &251359238 stripped
+--- !u!4 &234767064 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400002, guid: f27b3fd2e6b194b9b964e097240e5f2c,
+  m_CorrespondingSourceObject: {fileID: 4910449297502988, guid: f27b3fd2e6b194b9b964e097240e5f2c,
     type: 2}
   m_PrefabInternal: {fileID: 90727575}
 --- !u!1 &510659733
@@ -445,33 +409,60 @@ MonoBehaviour:
     parent: {fileID: 0}
     playOnGameAwake: 0
     stream: -1
-  - name: bflat7th
-    clip: {fileID: 8300000, guid: 469a6a82c8ca35a48830425b1a1835e8, type: 3}
-    volume: 1
-    pitch: 1
-    loop: 1
-    source: {fileID: 0}
-    parent: {fileID: 0}
-    playOnGameAwake: 0
-    stream: 0
-  - name: aminor7th
-    clip: {fileID: 8300000, guid: cbf9548111d5a3a45a8c36d881dcaeeb, type: 3}
-    volume: 1
-    pitch: 1
-    loop: 1
-    source: {fileID: 0}
-    parent: {fileID: 0}
-    playOnGameAwake: 0
-    stream: 0
   - name: windchimes
     clip: {fileID: 8300000, guid: c4b79418bc5c6344080786bd7a33648f, type: 3}
+    volume: 0.05
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    parent: {fileID: 0}
+    playOnGameAwake: 0
+    stream: -1
+  - name: aminor7th_pad
+    clip: {fileID: 8300000, guid: 305e3269f5e850045baffd5ca3c27aa7, type: 3}
     volume: 1
     pitch: 1
     loop: 1
     source: {fileID: 0}
     parent: {fileID: 0}
     playOnGameAwake: 0
-    stream: 1
+    stream: 0
+  - name: c7th_pad
+    clip: {fileID: 8300000, guid: a6f3458fe95bec34fa31586267929cb2, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    parent: {fileID: 0}
+    playOnGameAwake: 0
+    stream: 0
+  - name: dminor7th_pad
+    clip: {fileID: 8300000, guid: 99feaf96dd6ce8c4a9fb83fee632cef8, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    parent: {fileID: 0}
+    playOnGameAwake: 0
+    stream: 0
+  - name: gminor7th_pad
+    clip: {fileID: 8300000, guid: 1e55dad1a7618fc42b85302f109ae840, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    parent: {fileID: 0}
+    playOnGameAwake: 0
+    stream: 0
+  - name: dcrunch_pad
+    clip: {fileID: 8300000, guid: 8213a3bc668e2fc4598572003f32fa53, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    parent: {fileID: 0}
+    playOnGameAwake: 0
+    stream: 0
 --- !u!1 &726046238
 GameObject:
   m_ObjectHideFlags: 0
@@ -677,7 +668,7 @@ MonoBehaviour:
     waitForTrigger: 0
     spawnObjects: []
     audioClips:
-    - bflat7th
+    - c7th_pad
   - text: IMAGINE SPRINGTIME
     maxTextSize: 100
     duration: 2
@@ -685,72 +676,174 @@ MonoBehaviour:
     waitForTrigger: 0
     spawnObjects: []
     audioClips:
-    - aminor7th
-  - text: I WOULD LIKE YOU TO IMAGINE SPRINGTIME
+    - aminor7th_pad
+  - text: HOPEFULLY YOU CAN DO THAT
     maxTextSize: 50
     duration: 3
     leadTime: 2
     waitForTrigger: 0
     spawnObjects: []
-    audioClips: []
-  - text: CAN YOU DO THAT?
+    audioClips:
+    - gminor7th_pad
+  - text: HOPEFULLY YOU CAN IMAGINE SPRINGTIME
     maxTextSize: 100
     duration: 2
     leadTime: 1
     waitForTrigger: 0
     spawnObjects: []
-    audioClips: []
-  - text: NOW,
+    audioClips:
+    - dminor7th_pad
+  - text: AND PLEASE,
     maxTextSize: 100
     duration: 0.5
     leadTime: 5
     waitForTrigger: 0
     spawnObjects: []
-    audioClips: []
-  - text: PLEASE CLOSE YOUR EYES
+    audioClips:
+    - dcrunch_pad
+  - text: CLOSE YOUR EYES
     maxTextSize: 1000
     duration: 2
     leadTime: 1
     waitForTrigger: 0
     spawnObjects: []
     audioClips:
-    - bflat7th
-  - text: FLOWERS
+    - c7th_pad
+  - text: I THINK IT WILL HELP
     maxTextSize: 1000
-    duration: 0.2
-    leadTime: 6
-    waitForTrigger: 0
-    spawnObjects:
-    - {fileID: 1597944587800884, guid: 05e96f5cbb1952647b5b1a1e714dc2b9, type: 2}
-    audioClips: []
-  - text: IMAGINE A FIELD OF FLOWERS
-    maxTextSize: 50
-    duration: 3
+    duration: 2
     leadTime: 1
     waitForTrigger: 0
     spawnObjects: []
     audioClips: []
-  - text: STRETCHING TO THE HORIZON
-    maxTextSize: 20
+  - text: NOW PICTURE SOMETHING ABOUT SPRING
+    maxTextSize: 1000
     duration: 2
-    leadTime: 4
+    leadTime: 1
+    waitForTrigger: 0
+    spawnObjects: []
+    audioClips:
+    - c7th_pad
+  - text: MAYBE
+    maxTextSize: 1000
+    duration: 2
+    leadTime: 1
     waitForTrigger: 0
     spawnObjects: []
     audioClips: []
-  - text: BIRDS
-    maxTextSize: 20
+  - text: START WITH SOME FLOWERS
+    maxTextSize: 1000
     duration: 2
-    leadTime: 4
+    leadTime: 1
+    waitForTrigger: 0
+    spawnObjects:
+    - {fileID: 1597944587800884, guid: 05e96f5cbb1952647b5b1a1e714dc2b9, type: 2}
+    audioClips:
+    - aminor7th_pad
+  - text: A FIELD OF THEM
+    maxTextSize: 1000
+    duration: 2
+    leadTime: 1
+    waitForTrigger: 0
+    spawnObjects: []
+    audioClips:
+    - gminor7th_pad
+  - text: THE FIELD STRETCHES AS FAR AS YOU CARE IT TO
+    maxTextSize: 1000
+    duration: 2
+    leadTime: 1
+    waitForTrigger: 0
+    spawnObjects: []
+    audioClips:
+    - aminor7th_pad
+  - text: THERE'S A BREEZE
+    maxTextSize: 1000
+    duration: 2
+    leadTime: 1
+    waitForTrigger: 0
+    spawnObjects: []
+    audioClips:
+    - windchimes
+    - c7th_pad
+  - text: BUT IT'S WARM IN SPITE OF IT
+    maxTextSize: 1000
+    duration: 2
+    leadTime: 1
+    waitForTrigger: 0
+    spawnObjects: []
+    audioClips: []
+  - text: AROUND YOU, SOME TREES
+    maxTextSize: 1000
+    duration: 2
+    leadTime: 1
+    waitForTrigger: 0
+    spawnObjects:
+    - {fileID: 1714529123409382, guid: e3c0745d775558c458a3549f904772ac, type: 2}
+    audioClips: []
+  - text: IN THEM
+    maxTextSize: 1000
+    duration: 2
+    leadTime: 1
+    waitForTrigger: 0
+    spawnObjects: []
+    audioClips: []
+  - text: SOME BIRDS
+    maxTextSize: 1000
+    duration: 2
+    leadTime: 1
     waitForTrigger: 0
     spawnObjects:
     - {fileID: 1956844741569014, guid: 02cc33d25d542724197b024f4b2e7547, type: 2}
     audioClips: []
-  - text: ' '
-    maxTextSize: 20
+  - text: THIS SEEMS NICE
+    maxTextSize: 1000
     duration: 2
-    leadTime: 4
+    leadTime: 1
     waitForTrigger: 0
     spawnObjects: []
+    audioClips: []
+  - text: I FEEL GOOD
+    maxTextSize: 1000
+    duration: 2
+    leadTime: 1
+    waitForTrigger: 0
+    spawnObjects: []
+    audioClips: []
+  - text: I'M GLAD TO BE HERE
+    maxTextSize: 1000
+    duration: 2
+    leadTime: 1
+    waitForTrigger: 0
+    spawnObjects: []
+    audioClips: []
+  - text: I HOPE YOU HAVE A GOOD DAY
+    maxTextSize: 1000
+    duration: 2
+    leadTime: 1
+    waitForTrigger: 0
+    spawnObjects: []
+    audioClips: []
+  - text: YOU CAN OPEN YOUR EYES NOW
+    maxTextSize: 1000
+    duration: 2
+    leadTime: 1
+    waitForTrigger: 0
+    spawnObjects: []
+    audioClips: []
+  - text: THANK YOU
+    maxTextSize: 1000
+    duration: 5
+    leadTime: 1
+    waitForTrigger: 0
+    spawnObjects: []
+    audioClips: []
+  - text: quit
+    maxTextSize: 0
+    duration: 1
+    leadTime: 0
+    waitForTrigger: 0
+    spawnObjects:
+    - {fileID: 1305752090762362, guid: d60e8a4a553abb54b86410f9614b3b9e, type: 2}
     audioClips: []
 --- !u!1 &1258903769
 GameObject:
@@ -850,6 +943,7 @@ Transform:
   m_Children:
   - {fileID: 910105213}
   - {fileID: 674606924}
+  - {fileID: 1816372417}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1009,26 +1103,26 @@ Transform:
   - {fileID: 1258903771}
   - {fileID: 1582263627}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1816372416
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 251359238}
+    m_TransformParent: {fileID: 1468835163}
     m_Modifications:
     - target: {fileID: 400000, guid: 1ca5316dd08051f42b31052d31beefed, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -1.7199006
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1ca5316dd08051f42b31052d31beefed, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -0.939
+      value: -100
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1ca5316dd08051f42b31052d31beefed, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 3.9203377
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1ca5316dd08051f42b31052d31beefed, type: 2}
       propertyPath: m_LocalRotation.x
@@ -1048,7 +1142,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1ca5316dd08051f42b31052d31beefed, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 1ca5316dd08051f42b31052d31beefed, type: 2}
       propertyPath: currentCamera
@@ -1074,9 +1168,22 @@ Prefab:
       propertyPath: m_TagString
       value: BirdManager
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1ca5316dd08051f42b31052d31beefed, type: 2}
+      propertyPath: spawnLocationOverride
+      value: 
+      objectReference: {fileID: 234767064}
+    - target: {fileID: 11400000, guid: 1ca5316dd08051f42b31052d31beefed, type: 2}
+      propertyPath: spawnLocationFailsafe
+      value: 
+      objectReference: {fileID: 234767064}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ca5316dd08051f42b31052d31beefed, type: 2}
   m_IsPrefabAsset: 0
+--- !u!4 &1816372417 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 1ca5316dd08051f42b31052d31beefed,
+    type: 2}
+  m_PrefabInternal: {fileID: 1816372416}
 --- !u!1 &2010159404
 GameObject:
   m_ObjectHideFlags: 0

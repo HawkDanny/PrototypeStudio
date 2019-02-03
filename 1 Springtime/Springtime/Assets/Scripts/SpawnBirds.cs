@@ -9,6 +9,6 @@ public class SpawnBirds : MonoBehaviour {
     private void Start()
     {
         controller = GameObject.FindGameObjectWithTag("BirdManager").GetComponent<lb_BirdController>();
-        controller.SpawnAmount(500);
+        controller.SpawnAmount(50);
     }
 }

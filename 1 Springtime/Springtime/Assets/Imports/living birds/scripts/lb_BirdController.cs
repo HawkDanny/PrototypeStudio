@@ -11,6 +11,7 @@ public class lb_BirdController : MonoBehaviour {
 	public bool collideWithObjects = true;
 	public LayerMask groundLayer;
 	public float birdScale = 1.0f;
+    public Transform spawnLocationFailsafe;
 
 	public bool robin = true;
 	public bool blueJay = true;
@@ -245,8 +246,6 @@ public class lb_BirdController : MonoBehaviour {
 	}
 
 	void SpawnBird(){
-        print("spawn bird");
-
 		if (!pause){
 			GameObject bird = null;
 			int randomBirdIndex = Mathf.FloorToInt (Random.Range (0,myBirds.Length));
@@ -266,6 +265,7 @@ public class lb_BirdController : MonoBehaviour {
 			//Find a point off camera to positon the bird and activate it
 			bird.transform.position = FindPositionOffCamera();
 			if(bird.transform.position == Vector3.zero){
+                bird.transform.position = spawnLocationFailsafe.position;
                 print("couldnt find a suitable spawn point");
 				return;
 			}else{
