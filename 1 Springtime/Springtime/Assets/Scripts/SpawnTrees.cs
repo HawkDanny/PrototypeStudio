@@ -6,11 +6,13 @@ using DG.Tweening;
 public class SpawnTrees : MonoBehaviour {
 
     public GameObject[] trees; //Tree prefabs
+    private Transform _parent;
     private Transform _player;
 
     private void Start()
     {
         _player = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+        _parent = GameObject.FindGameObjectWithTag("Imagine_Objects").GetComponent<Transform>();
 
         Spawn(1000);
     }
@@ -25,7 +27,7 @@ public class SpawnTrees : MonoBehaviour {
         {
             Vector3 spawnLocation = new Vector3(_player.transform.position.x + Mathf.Sin(Mathf.Deg2Rad * currentSpawnAngle) * distanceFromPlayer, 0f, _player.transform.position.z + Mathf.Cos(Mathf.Deg2Rad * currentSpawnAngle) * distanceFromPlayer);
             Vector3 spawnRotation = new Vector3(0f, Random.Range(0f, 360f), 0f);
-            GameObject tree = GameObject.Instantiate(trees[currentTreeIndex % trees.Length], spawnLocation, Quaternion.Euler(spawnRotation));
+            GameObject tree = GameObject.Instantiate(trees[currentTreeIndex % trees.Length], spawnLocation, Quaternion.Euler(spawnRotation), _parent);
 
             tree.transform.DOScale(1.5f, currentTreeIndex * 0.05f).SetEase(Ease.InOutQuad);
 

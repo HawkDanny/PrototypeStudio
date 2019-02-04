@@ -391,8 +391,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   numberOfStreams: 2
   sounds:
-  - name: birds
-    clip: {fileID: 8300000, guid: 6b7073c49823f0a4c8a33d4689b1705d, type: 3}
+  - name: birds_loop
+    clip: {fileID: 8300000, guid: 1a573a63659814d46941532cf27a199f, type: 3}
     volume: 1
     pitch: 1
     loop: 1
@@ -422,7 +422,7 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 305e3269f5e850045baffd5ca3c27aa7, type: 3}
     volume: 1
     pitch: 1
-    loop: 1
+    loop: 0
     source: {fileID: 0}
     parent: {fileID: 0}
     playOnGameAwake: 0
@@ -431,7 +431,7 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: a6f3458fe95bec34fa31586267929cb2, type: 3}
     volume: 1
     pitch: 1
-    loop: 1
+    loop: 0
     source: {fileID: 0}
     parent: {fileID: 0}
     playOnGameAwake: 0
@@ -440,7 +440,7 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 99feaf96dd6ce8c4a9fb83fee632cef8, type: 3}
     volume: 1
     pitch: 1
-    loop: 1
+    loop: 0
     source: {fileID: 0}
     parent: {fileID: 0}
     playOnGameAwake: 0
@@ -449,7 +449,7 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 1e55dad1a7618fc42b85302f109ae840, type: 3}
     volume: 1
     pitch: 1
-    loop: 1
+    loop: 0
     source: {fileID: 0}
     parent: {fileID: 0}
     playOnGameAwake: 0
@@ -458,11 +458,263 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 8213a3bc668e2fc4598572003f32fa53, type: 3}
     volume: 1
     pitch: 1
-    loop: 1
+    loop: 0
     source: {fileID: 0}
     parent: {fileID: 0}
     playOnGameAwake: 0
     stream: 0
+  - name: aminor7th_imagine
+    clip: {fileID: 8300000, guid: e235f75280e73f244a257b5a0866cd74, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    parent: {fileID: 0}
+    playOnGameAwake: 0
+    stream: 1
+  - name: c7th_imagine
+    clip: {fileID: 8300000, guid: 38f74f1ad8d7d2244b956af8170a3668, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    parent: {fileID: 0}
+    playOnGameAwake: 0
+    stream: 1
+  - name: dminor7th_imagine
+    clip: {fileID: 8300000, guid: fab95d7743781d9419478986ec841d3e, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    parent: {fileID: 0}
+    playOnGameAwake: 0
+    stream: 1
+  - name: gminor7th_imagine
+    clip: {fileID: 8300000, guid: 545f2e3f779537f4d94d67bd31b7fb94, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    parent: {fileID: 0}
+    playOnGameAwake: 0
+    stream: 1
+  - name: aFieldOf
+    clip: {fileID: 8300000, guid: 121ae6de2491ae14fa382fc16b5b5f71, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    parent: {fileID: 0}
+    playOnGameAwake: 0
+    stream: -1
+  - name: aroundYou
+    clip: {fileID: 8300000, guid: 5e5e829fcf278124c885237fb4439ff0, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    parent: {fileID: 0}
+    playOnGameAwake: 0
+    stream: -1
+  - name: butItsWarm
+    clip: {fileID: 8300000, guid: 82c23f3791fe12e46959dd804b7b5fbd, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    parent: {fileID: 0}
+    playOnGameAwake: 0
+    stream: -1
+  - name: closeYourEyes
+    clip: {fileID: 8300000, guid: 894af2e9c5d893a4489e1a70f671ace1, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    parent: {fileID: 0}
+    playOnGameAwake: 0
+    stream: -1
+  - name: hopefullyYouCanDoThat
+    clip: {fileID: 8300000, guid: 9b99f631e71bec241b17a30663b2d63b, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    parent: {fileID: 0}
+    playOnGameAwake: 0
+    stream: -1
+  - name: hopefullyYouCanImagine
+    clip: {fileID: 8300000, guid: a875777db176fce449b4d7bc4e445a2e, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    parent: {fileID: 0}
+    playOnGameAwake: 0
+    stream: -1
+  - name: iFeelGood
+    clip: {fileID: 8300000, guid: 06742ec9a1abb314b98fbac1391856b1, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    parent: {fileID: 0}
+    playOnGameAwake: 0
+    stream: -1
+  - name: iHopeYou
+    clip: {fileID: 8300000, guid: 9034b88bbd1a2b4458eadc1ddfa52df0, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    parent: {fileID: 0}
+    playOnGameAwake: 0
+    stream: -1
+  - name: imagine
+    clip: {fileID: 8300000, guid: ef4855a2e2f95504a94a7be3fad419f1, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    parent: {fileID: 0}
+    playOnGameAwake: 0
+    stream: -1
+  - name: imagineSpringtime
+    clip: {fileID: 8300000, guid: ea1c72826df602e4dae038e595ee124b, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    parent: {fileID: 0}
+    playOnGameAwake: 0
+    stream: -1
+  - name: imGladTo
+    clip: {fileID: 8300000, guid: c2ee97f8008906743b24fbfe7b34d379, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    parent: {fileID: 0}
+    playOnGameAwake: 0
+    stream: -1
+  - name: inThem
+    clip: {fileID: 8300000, guid: 1d05043de85f6264abe869b21ad5fa54, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    parent: {fileID: 0}
+    playOnGameAwake: 0
+    stream: -1
+  - name: iThinkItWillHelp
+    clip: {fileID: 8300000, guid: 23993d0d1d6d6c54ea5bc816c92da5c2, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    parent: {fileID: 0}
+    playOnGameAwake: 0
+    stream: -1
+  - name: maybe
+    clip: {fileID: 8300000, guid: 51fabc1eb8e905a4fb9121d5319827bb, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    parent: {fileID: 0}
+    playOnGameAwake: 0
+    stream: -1
+  - name: nowPictureSpringtime
+    clip: {fileID: 8300000, guid: f57b0cd9a6b128842ae995226457fc17, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    parent: {fileID: 0}
+    playOnGameAwake: 0
+    stream: -1
+  - name: openYourEyes
+    clip: {fileID: 8300000, guid: cc8154cc4c7b99c4d8a246c14bdd01f2, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    parent: {fileID: 0}
+    playOnGameAwake: 0
+    stream: -1
+  - name: please
+    clip: {fileID: 8300000, guid: e3639f4772fbee44c8ae640f411e23ea, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    parent: {fileID: 0}
+    playOnGameAwake: 0
+    stream: -1
+  - name: seemsNice
+    clip: {fileID: 8300000, guid: 925e40cb81541ae4cb14b427828af23d, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    parent: {fileID: 0}
+    playOnGameAwake: 0
+    stream: -1
+  - name: someBirds
+    clip: {fileID: 8300000, guid: d98c853106c681545820b65037752667, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    parent: {fileID: 0}
+    playOnGameAwake: 0
+    stream: -1
+  - name: someTrees
+    clip: {fileID: 8300000, guid: 711303a472812ca4789bab51c14e6220, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    parent: {fileID: 0}
+    playOnGameAwake: 0
+    stream: -1
+  - name: startWith
+    clip: {fileID: 8300000, guid: b5d5c1c81085568489b53f3329aff2f5, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    parent: {fileID: 0}
+    playOnGameAwake: 0
+    stream: -1
+  - name: stretching
+    clip: {fileID: 8300000, guid: 14bee7a1c2b5bbd4db0f08cd14502c05, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    parent: {fileID: 0}
+    playOnGameAwake: 0
+    stream: -1
+  - name: thankYou
+    clip: {fileID: 8300000, guid: 2825e99ef9511bf4183aa451239f23b8, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    parent: {fileID: 0}
+    playOnGameAwake: 0
+    stream: -1
+  - name: theresABreeze
+    clip: {fileID: 8300000, guid: 3bf74e79efaeccf43b1113bc4bc86625, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    parent: {fileID: 0}
+    playOnGameAwake: 0
+    stream: -1
 --- !u!1 &726046238
 GameObject:
   m_ObjectHideFlags: 0
@@ -669,6 +921,7 @@ MonoBehaviour:
     spawnObjects: []
     audioClips:
     - c7th_pad
+    - imagine
   - text: IMAGINE SPRINGTIME
     maxTextSize: 100
     duration: 2
@@ -677,6 +930,7 @@ MonoBehaviour:
     spawnObjects: []
     audioClips:
     - aminor7th_pad
+    - imagineSpringtime
   - text: HOPEFULLY YOU CAN DO THAT
     maxTextSize: 50
     duration: 3
@@ -685,6 +939,7 @@ MonoBehaviour:
     spawnObjects: []
     audioClips:
     - gminor7th_pad
+    - hopefullyYouCanDoThat
   - text: HOPEFULLY YOU CAN IMAGINE SPRINGTIME
     maxTextSize: 100
     duration: 2
@@ -693,6 +948,7 @@ MonoBehaviour:
     spawnObjects: []
     audioClips:
     - dminor7th_pad
+    - hopefullyYouCanImagine
   - text: AND PLEASE,
     maxTextSize: 100
     duration: 0.5
@@ -701,6 +957,7 @@ MonoBehaviour:
     spawnObjects: []
     audioClips:
     - dcrunch_pad
+    - please
   - text: CLOSE YOUR EYES
     maxTextSize: 1000
     duration: 2
@@ -709,28 +966,32 @@ MonoBehaviour:
     spawnObjects: []
     audioClips:
     - c7th_pad
+    - closeYourEyes
   - text: I THINK IT WILL HELP
     maxTextSize: 1000
     duration: 2
     leadTime: 1
     waitForTrigger: 0
     spawnObjects: []
-    audioClips: []
+    audioClips:
+    - iThinkItWillHelp
   - text: NOW PICTURE SOMETHING ABOUT SPRING
     maxTextSize: 1000
-    duration: 2
-    leadTime: 1
+    duration: 3
+    leadTime: 3
     waitForTrigger: 0
     spawnObjects: []
     audioClips:
     - c7th_pad
+    - nowPictureSpringtime
   - text: MAYBE
     maxTextSize: 1000
-    duration: 2
+    duration: 0.5
     leadTime: 1
     waitForTrigger: 0
     spawnObjects: []
-    audioClips: []
+    audioClips:
+    - maybe
   - text: START WITH SOME FLOWERS
     maxTextSize: 1000
     duration: 2
@@ -740,53 +1001,67 @@ MonoBehaviour:
     - {fileID: 1597944587800884, guid: 05e96f5cbb1952647b5b1a1e714dc2b9, type: 2}
     audioClips:
     - aminor7th_pad
+    - aminor7th_imagine
+    - startWith
   - text: A FIELD OF THEM
     maxTextSize: 1000
     duration: 2
-    leadTime: 1
+    leadTime: 5
     waitForTrigger: 0
     spawnObjects: []
     audioClips:
     - gminor7th_pad
+    - gminor7th_imagine
+    - aFieldOf
   - text: THE FIELD STRETCHES AS FAR AS YOU CARE IT TO
     maxTextSize: 1000
     duration: 2
-    leadTime: 1
+    leadTime: 8
     waitForTrigger: 0
     spawnObjects: []
     audioClips:
     - aminor7th_pad
+    - aminor7th_imagine
+    - stretching
   - text: THERE'S A BREEZE
     maxTextSize: 1000
     duration: 2
-    leadTime: 1
+    leadTime: 10
     waitForTrigger: 0
     spawnObjects: []
     audioClips:
     - windchimes
     - c7th_pad
+    - c7th_imagine
+    - theresABreeze
   - text: BUT IT'S WARM IN SPITE OF IT
     maxTextSize: 1000
     duration: 2
     leadTime: 1
     waitForTrigger: 0
     spawnObjects: []
-    audioClips: []
+    audioClips:
+    - c7th_pad
+    - butItsWarm
   - text: AROUND YOU, SOME TREES
     maxTextSize: 1000
     duration: 2
-    leadTime: 1
+    leadTime: 7
     waitForTrigger: 0
     spawnObjects:
     - {fileID: 1714529123409382, guid: e3c0745d775558c458a3549f904772ac, type: 2}
-    audioClips: []
+    audioClips:
+    - dminor7th_pad
+    - dminor7th_imagine
+    - aroundYou
   - text: IN THEM
     maxTextSize: 1000
     duration: 2
-    leadTime: 1
+    leadTime: 5
     waitForTrigger: 0
     spawnObjects: []
-    audioClips: []
+    audioClips:
+    - inThem
   - text: SOME BIRDS
     maxTextSize: 1000
     duration: 2
@@ -794,57 +1069,94 @@ MonoBehaviour:
     waitForTrigger: 0
     spawnObjects:
     - {fileID: 1956844741569014, guid: 02cc33d25d542724197b024f4b2e7547, type: 2}
-    audioClips: []
+    audioClips:
+    - birds_loop
+    - someBirds
   - text: THIS SEEMS NICE
     maxTextSize: 1000
-    duration: 2
+    duration: 4
     leadTime: 1
     waitForTrigger: 0
     spawnObjects: []
-    audioClips: []
+    audioClips:
+    - seemsNice
   - text: I FEEL GOOD
     maxTextSize: 1000
     duration: 2
-    leadTime: 1
+    leadTime: 4
     waitForTrigger: 0
     spawnObjects: []
-    audioClips: []
+    audioClips:
+    - iFeelGood
   - text: I'M GLAD TO BE HERE
     maxTextSize: 1000
     duration: 2
-    leadTime: 1
+    leadTime: 4
     waitForTrigger: 0
     spawnObjects: []
-    audioClips: []
+    audioClips:
+    - imGladTo
   - text: I HOPE YOU HAVE A GOOD DAY
     maxTextSize: 1000
     duration: 2
-    leadTime: 1
+    leadTime: 3
     waitForTrigger: 0
     spawnObjects: []
-    audioClips: []
+    audioClips:
+    - iHopeYou
   - text: YOU CAN OPEN YOUR EYES NOW
     maxTextSize: 1000
     duration: 2
-    leadTime: 1
+    leadTime: 2
     waitForTrigger: 0
-    spawnObjects: []
-    audioClips: []
+    spawnObjects:
+    - {fileID: 1857235247398110, guid: 3b6b73e57cf77cf45aef7c8449fde483, type: 2}
+    audioClips:
+    - openYourEyes
   - text: THANK YOU
     maxTextSize: 1000
     duration: 5
     leadTime: 1
     waitForTrigger: 0
     spawnObjects: []
-    audioClips: []
+    audioClips:
+    - thankYou
   - text: quit
     maxTextSize: 0
     duration: 1
-    leadTime: 0
+    leadTime: 8
     waitForTrigger: 0
     spawnObjects:
     - {fileID: 1305752090762362, guid: d60e8a4a553abb54b86410f9614b3b9e, type: 2}
     audioClips: []
+--- !u!1 &1033132241
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1033132242}
+  m_Layer: 0
+  m_Name: Imagine_Objects
+  m_TagString: Imagine_Objects
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1033132242
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1033132241}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1258903769
 GameObject:
   m_ObjectHideFlags: 0
@@ -1176,6 +1488,10 @@ Prefab:
       propertyPath: spawnLocationFailsafe
       value: 
       objectReference: {fileID: 234767064}
+    - target: {fileID: 11400000, guid: 1ca5316dd08051f42b31052d31beefed, type: 2}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1033132242}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ca5316dd08051f42b31052d31beefed, type: 2}
   m_IsPrefabAsset: 0

@@ -12,6 +12,7 @@ public class lb_BirdController : MonoBehaviour {
 	public LayerMask groundLayer;
 	public float birdScale = 1.0f;
     public Transform spawnLocationFailsafe;
+    public Transform parent;
 
 	public bool robin = true;
 	public bool blueJay = true;
@@ -116,7 +117,7 @@ public class lb_BirdController : MonoBehaviour {
 			}else{
 				bird = Resources.Load (myBirdTypes[Random.Range (0,myBirdTypes.Count)],typeof(GameObject)) as GameObject;
 			}
-			myBirds[i] = Instantiate (bird,Vector3.zero,Quaternion.identity) as GameObject;
+			myBirds[i] = Instantiate (bird,Vector3.zero,Quaternion.identity, parent) as GameObject;
 			myBirds[i].transform.localScale = myBirds[i].transform.localScale*birdScale;
 			myBirds[i].transform.parent = transform;
 			myBirds[i].SendMessage ("SetController",this);
