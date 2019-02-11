@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - goose
+  - AudioManager
+  - player
+  - GameManager
+  - puck
   layers:
   - Default
   - TransparentFX
@@ -13,8 +18,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - stick
+  - rink
   - 
   - 
   - 
@@ -49,6 +54,9 @@ TagManager:
     locked: 0
   - name: stick
     uniqueID: 2763265313
+    locked: 0
+  - name: puck
+    uniqueID: 3499122415
     locked: 0
   - name: player
     uniqueID: 3391398185
